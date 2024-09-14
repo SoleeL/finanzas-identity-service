@@ -1,0 +1,6 @@
+﻿services:
+  finanzas-identity-service:
+    image: finanzas-identity-service
+    build:
+      context: .
+      dockerfile: Dockerfile
